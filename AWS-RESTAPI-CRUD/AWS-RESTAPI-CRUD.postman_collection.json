@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "13573469-eb08-41a7-b9bc-33d0a9bffd43",
+		"name": "AWS-RESTAPI-CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Put Items",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": \"1234\", \"price\": 156, \"name\": \"myitem\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://swe6v43e2a.execute-api.us-east-1.amazonaws.com/Dev/items",
+					"protocol": "https",
+					"host": [
+						"swe6v43e2a",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"Dev",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swe6v43e2a.execute-api.us-east-1.amazonaws.com/Dev/items",
+					"protocol": "https",
+					"host": [
+						"swe6v43e2a",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"Dev",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Items By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swe6v43e2a.execute-api.us-east-1.amazonaws.com/Dev/items/123",
+					"protocol": "https",
+					"host": [
+						"swe6v43e2a",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"Dev",
+						"items",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Items By ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://swe6v43e2a.execute-api.us-east-1.amazonaws.com/Dev/items/1234",
+					"protocol": "https",
+					"host": [
+						"swe6v43e2a",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"Dev",
+						"items",
+						"1234"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
