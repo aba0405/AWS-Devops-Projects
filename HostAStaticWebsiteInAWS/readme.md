@@ -11,7 +11,7 @@
 3. Step 3: Edit Block Public Access settings
 -Click permissions tab to clear block all public access
 ![clickPermissions](https://user-images.githubusercontent.com/60788914/210186426-20c9fd48-811a-4963-ae33-ff9f4ccbb535.png)
-4. Step 4: Add a bucket policy that makes your bucket content publicly available
+4. Step 4: Add a bucket policy that makes the bucket content publicly available
 -In the permissions tab, under the bucket policy, choose edit and following policy. This policy will grant public read access to the website
 ![BucketPolicy](https://user-images.githubusercontent.com/60788914/210186467-79215738-cd58-49c5-8422-5d523937142a.png)
 5. Step 5: Configure an index document
